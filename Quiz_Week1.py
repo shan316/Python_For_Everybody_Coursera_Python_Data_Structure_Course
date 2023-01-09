@@ -1,0 +1,46 @@
+# What does the following Python Program print out? 
+str1 = "Hello"
+str2 = 'there'
+bob = str1 + str2
+print(bob)
+
+# Question 2: What does the following Python program print out? 
+x = '40'
+y = int(x) + 2
+print(y)
+
+
+
+# Question 3: How would you use the index operator [] to print out the letter q from the following string?
+x = 'From marquard@uct.ac.za'
+print(x[8])
+
+# Question 4: How would you use string slicing [:] to print out 'uct' from the following string?
+x = 'From marquard@uct.ac.za'
+
+print(x[14:17])
+
+# Question 5: What is the iteration variable in the following Python code?
+for letter in 'banana' :
+    print(letter)
+# Answer: letter
+
+# Question 6: What does the following Python code print out?
+print(len('banana')*7)
+
+# Question 7: How would you print out the following variable in all upper case in Python?
+greet = 'Hello Bob'
+
+print(greet.upper())
+
+# Question 8: Which of the following is not a valid string method in Python?
+# Answer: twist()
+
+# Question 9: What will the following Python code print out?
+data = 'From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008'
+pos = data.find('.')
+print(data[pos:pos+3])
+
+# Question 10: Which of the following string methods removes whitespace from both the beginning and end of a string?
+data = "  Shahnawaz "
+print(data.strip())
